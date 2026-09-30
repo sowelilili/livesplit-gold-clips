@@ -1,0 +1,11 @@
+; The plugin's exports. OBS's EXPORT is only a visibility attribute with
+; MinGW-style compilers, which would otherwise export every global symbol.
+LIBRARY livesplit-gold-clips.dll
+EXPORTS
+	obs_module_load
+	obs_module_unload
+	obs_module_set_pointer
+	obs_current_module
+	obs_module_ver
+	obs_module_name
+	obs_module_description
